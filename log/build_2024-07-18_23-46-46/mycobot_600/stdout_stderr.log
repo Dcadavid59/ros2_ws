@@ -1,0 +1,17 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+running egg_info
+writing mycobot_600.egg-info/PKG-INFO
+writing dependency_links to mycobot_600.egg-info/dependency_links.txt
+writing entry points to mycobot_600.egg-info/entry_points.txt
+writing requirements to mycobot_600.egg-info/requires.txt
+writing top-level names to mycobot_600.egg-info/top_level.txt
+reading manifest file 'mycobot_600.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_600.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages/mycobot-600.egg-link (link to .)
+Installing slider_control script to /home/david/ros2_ws/install/mycobot_600/lib/mycobot_600
+
+Installed /home/david/ros2_ws/build/mycobot_600
+running symlink_data

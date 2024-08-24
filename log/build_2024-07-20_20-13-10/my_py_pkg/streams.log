@@ -1,0 +1,31 @@
+[5.622s] Invoking command in '/home/david/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/david/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[7.550s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.550s]   warnings.warn(
+[7.953s] running develop
+[7.953s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.953s]   warnings.warn(
+[9.937s] running egg_info
+[9.938s] writing my_py_pkg.egg-info/PKG-INFO
+[9.939s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[9.940s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[9.940s] writing requirements to my_py_pkg.egg-info/requires.txt
+[9.941s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[9.955s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[9.957s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[9.975s] running build_ext
+[9.988s] Creating /home/david/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[9.992s] Installing add_two_ints_client script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.992s] Installing add_two_ints_client_no_oop script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.993s] Installing add_two_ints_server script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.993s] Installing battery script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.996s] Installing hw_status_publisher script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.996s] Installing led_panel script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.997s] Installing number_counter script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.997s] Installing number_publisher script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.997s] Installing py_node script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[9.997s] Installing robot_news_station script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[10.007s] Installing smartphone script to /home/david/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[10.007s] 
+[10.008s] Installed /home/david/ros2_ws/build/my_py_pkg
+[10.008s] running symlink_data
+[10.182s] Invoked command in '/home/david/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/david/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

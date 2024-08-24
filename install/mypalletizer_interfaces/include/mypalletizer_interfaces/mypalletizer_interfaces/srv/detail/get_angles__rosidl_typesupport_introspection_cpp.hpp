@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mypalletizer_interfaces/rosidl_typesupport_introspection_cpp/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp

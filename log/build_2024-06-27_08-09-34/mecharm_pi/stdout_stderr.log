@@ -1,0 +1,42 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating mecharm_pi.egg-info
+writing mecharm_pi.egg-info/PKG-INFO
+writing dependency_links to mecharm_pi.egg-info/dependency_links.txt
+writing entry points to mecharm_pi.egg-info/entry_points.txt
+writing requirements to mecharm_pi.egg-info/requires.txt
+writing top-level names to mecharm_pi.egg-info/top_level.txt
+writing manifest file 'mecharm_pi.egg-info/SOURCES.txt'
+reading manifest file 'mecharm_pi.egg-info/SOURCES.txt'
+writing manifest file 'mecharm_pi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mecharm_pi/lib/python3.10/site-packages/mecharm-pi.egg-link (link to .)
+Installing detect_marker script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing follow_display script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing following_marker script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing listen_real script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing listen_real_of_topic script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing simple_gui script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing slider_control script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+Installing teleop_keyboard script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+
+Installed /home/david/ros2_ws/build/mecharm_pi
+running symlink_data
+creating /home/david/ros2_ws/install/mecharm_pi/share/ament_index
+creating /home/david/ros2_ws/install/mecharm_pi/share/ament_index/resource_index
+creating /home/david/ros2_ws/install/mecharm_pi/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/resource/mecharm_pi -> /home/david/ros2_ws/install/mecharm_pi/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/package.xml -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi
+creating /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/test.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/detect_marker_with_topic.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/follow.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/detect_marker.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+creating /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/config
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/config
+symbolically linking /home/david/ros2_ws/build/mecharm_pi/config/mecharm_pi.rviz -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/config

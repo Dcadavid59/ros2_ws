@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mypalletizer_interfaces/rosidl_generator_c/mypalletizer_interfaces/msg/rosidl_generator_c__visibility_control.h

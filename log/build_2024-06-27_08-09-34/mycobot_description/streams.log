@@ -1,0 +1,241 @@
+[0.410s] Invoking command in '/home/david/ros2_ws/build/mycobot_description': PYTHONPATH=/home/david/ros2_ws/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_description/build --no-deps symlink_data
+[0.637s] running develop
+[0.637s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.637s]   warnings.warn(
+[0.724s] running egg_info
+[0.724s] creating mycobot_description.egg-info
+[0.724s] writing mycobot_description.egg-info/PKG-INFO
+[0.724s] writing dependency_links to mycobot_description.egg-info/dependency_links.txt
+[0.724s] writing entry points to mycobot_description.egg-info/entry_points.txt
+[0.724s] writing requirements to mycobot_description.egg-info/requires.txt
+[0.724s] writing top-level names to mycobot_description.egg-info/top_level.txt
+[0.724s] writing manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[0.726s] reading manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[0.728s] writing manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[0.728s] running build_ext
+[0.728s] Creating /home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot-description.egg-link (link to .)
+[0.729s] 
+[0.729s] Installed /home/david/ros2_ws/build/mycobot_description
+[0.729s] running symlink_data
+[0.729s] creating /home/david/ros2_ws/install/mycobot_description/share/ament_index
+[0.729s] creating /home/david/ros2_ws/install/mycobot_description/share/ament_index/resource_index
+[0.730s] creating /home/david/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/resource/mycobot_description -> /home/david/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/package.xml -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description
+[0.730s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+[0.730s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/mypalletizer_260_pi_aikit.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/mypalletizer_260_pi.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/suit_env.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.730s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mypalletizer_260_pi/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mypalletizer_260_pi
+[0.731s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint6.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint3.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/mycobot_280_jn.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint7.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint2.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.731s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint4.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint5.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint1_jet.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_jn/joint7.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_jn
+[0.732s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/link6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/mycobot_320_m5_2022.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.732s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_m5_2022/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_m5_2022
+[0.733s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/link6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/mycobot_pro_600.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_600/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_600
+[0.733s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/noenv.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/pump_head.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint6.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint3.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint7.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/pump_box.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_280_m5_with_camera_flange_pump.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_280_m5_with_camera_flange.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.734s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint2.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/camera_flange.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint4.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_280_m5_with_pump.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_with_vision.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_280_m5.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/withenv.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint5.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_with_vision_copy.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/suit_env.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.735s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint1.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/mycobot_step.STEP -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/G_base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_m5/joint7.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_m5
+[0.736s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/pump_head.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/mycobot_280_pi_with_pump.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint6.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint3.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint7.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint1_pi.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.736s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/mycobot_280_pi.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/pump_box.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint2.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/camera_flange.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint4.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint5.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/mycobot_280_pi_with_camera_flange_pump.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint1.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/G_base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/joint7.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_pi/mycobot_280_pi_with_camera_flange.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_pi
+[0.737s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.737s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/link6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/mecharm_270_m5.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_m5/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_m5
+[0.738s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/link6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/mecharm_270_pi.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mecharm_270_pi/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mecharm_270_pi
+[0.738s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/link6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/mycobot_320_pi_2022.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_320_pi_2022/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_320_pi_2022
+[0.739s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint4_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint5_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint6.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint3.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.739s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint7.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint2.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint4.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint3_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint2_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint5.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint4_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint1_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint3_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint5_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/mybuddy.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint1_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint6_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint2_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.740s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/mybuddy-up.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/joint6_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mybuddy/mybuddy-down.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mybuddy
+[0.741s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/ultraArm-1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/ultraArm_p340.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/suit_env.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/ultraArm-base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/ultraArm_p340_aiki.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/ultraArm-3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/ultraArm_p340/ultraArm-2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/ultraArm_p340
+[0.741s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint6.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.741s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint3.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/mycobot_280_x3pi.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint7.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint1_pi.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint2.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint4.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint5.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint1.png -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_280_x3pi/joint7.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_x3pi
+[0.742s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j7.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.742s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/myarm_300_pi.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_300_pi/j2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_300_pi
+[0.743s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/joint2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/joint5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/joint3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/myarm_c650.urdf.xacro -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/myarm_c_grip_R.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/myarm_c650.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.743s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/joint1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/endeffector.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/myarm_basic_base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/myarm_c_grip_Base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/joint4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_c650/myarm_c_grip_L.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_c650
+[0.744s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/finger_right.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/finger_holder.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/myarm_m750.urdf.xacro -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/finger_left.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/myarm_m750.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/endeffector.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.744s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/myarm_m750_base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/myarm_m750/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/myarm_m750
+[0.745s] creating /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/link5.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/link6.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/mycobot_pro_630.urdf -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/base.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/link3.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/link1.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/link2.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.745s] symbolically linking /home/david/ros2_ws/build/mycobot_description/urdf/mycobot_pro_630/link4.dae -> /home/david/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_pro_630
+[0.757s] Invoked command in '/home/david/ros2_ws/build/mycobot_description' returned '0': PYTHONPATH=/home/david/ros2_ws/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_description/build --no-deps symlink_data

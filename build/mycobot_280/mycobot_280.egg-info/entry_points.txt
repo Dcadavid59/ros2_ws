@@ -1,0 +1,22 @@
+[console_scripts]
+acercamiento = mycobot_280.acercamiento:main
+angular_position_server = mycobot_280.angular_position_server:main
+aruco_marker = mycobot_280.aruco_marker:main
+aruco_marker2 = mycobot_280.aruco_marker2:main
+barrido_client = mycobot_280.barrido_client_main
+camera_display = mycobot_280.camera_display:main
+detect_marker = mycobot_280.detect_marker:main
+follow_display = mycobot_280.follow_display:main
+following_marker = mycobot_280.following_marker:main
+listen_real = mycobot_280.listen_real:main
+listen_real_of_topic = mycobot_280.listen_real_of_topic:main
+opencv_camera = mycobot_280.opencv_camera:main
+origen = mycobot_280.origen:main
+rutina = mycobot_280.rutina:main
+rutina2 = mycobot_280.rutina2:main
+rutina3 = mycobot_280.rutina3:main
+simple_gui = mycobot_280.simple_gui:main
+slider_control = mycobot_280.slider_control:main
+teleop_keyboard = mycobot_280.teleop_keyboard:main
+test_subscription = mycobot_280.test_subscription:main
+

@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mecharm_interfaces/ament_cmake_python/mecharm_interfaces/mecharm_interfaces.egg-info/dependency_links.txt

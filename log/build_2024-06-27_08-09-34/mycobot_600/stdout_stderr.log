@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating mycobot_600.egg-info
+writing mycobot_600.egg-info/PKG-INFO
+writing dependency_links to mycobot_600.egg-info/dependency_links.txt
+writing entry points to mycobot_600.egg-info/entry_points.txt
+writing requirements to mycobot_600.egg-info/requires.txt
+writing top-level names to mycobot_600.egg-info/top_level.txt
+writing manifest file 'mycobot_600.egg-info/SOURCES.txt'
+reading manifest file 'mycobot_600.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_600.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages/mycobot-600.egg-link (link to .)
+Installing slider_control script to /home/david/ros2_ws/install/mycobot_600/lib/mycobot_600
+
+Installed /home/david/ros2_ws/build/mycobot_600
+running symlink_data
+creating /home/david/ros2_ws/install/mycobot_600/share/ament_index
+creating /home/david/ros2_ws/install/mycobot_600/share/ament_index/resource_index
+creating /home/david/ros2_ws/install/mycobot_600/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mycobot_600/resource/mycobot_600 -> /home/david/ros2_ws/install/mycobot_600/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mycobot_600/package.xml -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600
+creating /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_600/launch/test.launch.py -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_600/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/launch
+creating /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/config
+symbolically linking /home/david/ros2_ws/build/mycobot_600/config/mycobot_600.rviz -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/config

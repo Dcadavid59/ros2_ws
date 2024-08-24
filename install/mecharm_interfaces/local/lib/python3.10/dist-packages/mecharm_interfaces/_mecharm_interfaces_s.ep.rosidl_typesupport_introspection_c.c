@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_generator_py/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_introspection_c.c

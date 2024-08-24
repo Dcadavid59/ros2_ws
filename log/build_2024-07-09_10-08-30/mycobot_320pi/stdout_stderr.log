@@ -1,0 +1,26 @@
+running develop
+running egg_info
+writing mycobot_320pi.egg-info/PKG-INFO
+writing dependency_links to mycobot_320pi.egg-info/dependency_links.txt
+writing entry points to mycobot_320pi.egg-info/entry_points.txt
+writing requirements to mycobot_320pi.egg-info/requires.txt
+writing top-level names to mycobot_320pi.egg-info/top_level.txt
+reading manifest file 'mycobot_320pi.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_320pi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mycobot_320pi/lib/python3.10/site-packages/mycobot-320pi.egg-link (link to .)
+Installing camera_display script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing detect_marker script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing follow_display script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing following_marker script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing listen_real script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing listen_real_of_topic script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing opencv_camera script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing simple_gui script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing slider_control script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+Installing teleop_keyboard script to /home/david/ros2_ws/install/mycobot_320pi/lib/mycobot_320pi
+
+Installed /home/david/ros2_ws/build/mycobot_320pi
+running symlink_data
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

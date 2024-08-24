@@ -1,0 +1,344 @@
+[0.203s] Invoking command in '/home/david/ros2_ws/build/mypalletizer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/david/ros2_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/david/ros2_ws/install/mypalletizer_interfaces
+[0.210s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.323s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.327s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.370s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.370s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.688s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.181s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.204s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.204s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.204s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.247s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.253s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.254s] -- Added test 'lint_cmake' to check CMake code style
+[1.255s] -- Added test 'xmllint' to check XML markup files
+[1.257s] -- Configuring done
+[1.289s] -- Generating done
+[1.290s] -- Build files have been written to: /home/david/ros2_ws/build/mypalletizer_interfaces
+[1.295s] Invoked command in '/home/david/ros2_ws/build/mypalletizer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/david/ros2_ws/src/mycobot_ros2/mypalletizer_260/mypalletizer_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/david/ros2_ws/install/mypalletizer_interfaces
+[1.298s] Invoking command in '/home/david/ros2_ws/build/mypalletizer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/mypalletizer_interfaces -- -j12 -l12
+[1.339s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_generator_c[0m
+[1.346s] [  0%] Built target mypalletizer_interfaces__cpp
+[1.352s] [ 12%] Built target mypalletizer_interfaces__rosidl_generator_c
+[1.353s] [ 12%] Built target ament_cmake_python_symlink_mypalletizer_interfaces
+[1.359s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_cpp[0m
+[1.359s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.359s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.364s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_c[0m
+[1.365s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_introspection_c[0m
+[1.366s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.376s] [ 24%] Built target mypalletizer_interfaces__rosidl_typesupport_c
+[1.378s] [ 42%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_c
+[1.378s] [ 48%] Built target mypalletizer_interfaces__rosidl_typesupport_cpp
+[1.380s] [ 60%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_cpp
+[1.382s] [ 71%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.386s] [ 83%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c
+[1.498s] [ 83%] Built target mypalletizer_interfaces
+[1.518s] [ 84%] Built target mypalletizer_interfaces__py
+[1.535s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_generator_py[0m
+[1.596s] [ 95%] Built target mypalletizer_interfaces__rosidl_generator_py
+[1.654s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.660s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.660s] [35m[1mConsolidate compiler generated dependencies of target mypalletizer_interfaces__rosidl_typesupport_c__pyext[0m
+[1.670s] [ 97%] Built target mypalletizer_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.671s] [ 99%] Built target mypalletizer_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.672s] [100%] Built target mypalletizer_interfaces__rosidl_typesupport_c__pyext
+[1.794s] running egg_info
+[1.795s] writing mypalletizer_interfaces.egg-info/PKG-INFO
+[1.795s] writing dependency_links to mypalletizer_interfaces.egg-info/dependency_links.txt
+[1.795s] writing top-level names to mypalletizer_interfaces.egg-info/top_level.txt
+[1.796s] reading manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+[1.797s] writing manifest file 'mypalletizer_interfaces.egg-info/SOURCES.txt'
+[1.821s] [100%] Built target ament_cmake_python_build_mypalletizer_interfaces_egg
+[1.833s] Invoked command in '/home/david/ros2_ws/build/mypalletizer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/david/ros2_ws/build/mypalletizer_interfaces -- -j12 -l12
+[2.094s] Invoking command in '/home/david/ros2_ws/build/mypalletizer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/mypalletizer_interfaces
+[2.099s] -- Install configuration: ""
+[2.100s] -- Execute custom install script
+[2.101s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/rosidl_interfaces/mypalletizer_interfaces
+[2.101s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__functions.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__struct.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__type_support.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__functions.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__struct.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__type_support.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__functions.h
+[2.102s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__struct.h
+[2.103s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__type_support.h
+[2.103s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__functions.h
+[2.103s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__struct.h
+[2.103s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__type_support.h
+[2.104s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__functions.h
+[2.104s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__struct.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__type_support.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__functions.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__struct.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__type_support.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_angles.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_coords.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_gripper_status.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_pump_status.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_angles.h
+[2.105s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_coords.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__functions.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__struct.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__type_support.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__functions.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__struct.h
+[2.106s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__type_support.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__functions.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__struct.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__type_support.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__functions.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__struct.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__type_support.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__functions.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__struct.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__type_support.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__functions.h
+[2.107s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__struct.h
+[2.108s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__type_support.h
+[2.108s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_angles.h
+[2.108s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_coords.h
+[2.109s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/gripper_status.h
+[2.109s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/pump_status.h
+[2.109s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_angles.h
+[2.109s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_coords.h
+[2.109s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/library_path.sh
+[2.109s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/library_path.dsv
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[2.110s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+[2.111s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+[2.111s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[2.111s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_introspection_c.h
+[2.111s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_introspection_c.h
+[2.112s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_introspection_c.h
+[2.112s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_introspection_c.h
+[2.112s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_introspection_c.h
+[2.113s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_introspection_c.h
+[2.113s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.113s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+[2.113s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+[2.114s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[2.114s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+[2.114s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+[2.114s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__builder.hpp
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__struct.hpp
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__traits.hpp
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__builder.hpp
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__struct.hpp
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__traits.hpp
+[2.115s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__builder.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__struct.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__traits.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__builder.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__struct.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__traits.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__builder.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__struct.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__traits.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__builder.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__struct.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__traits.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_angles.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_coords.hpp
+[2.116s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_gripper_status.hpp
+[2.117s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_pump_status.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_angles.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/mypal_set_coords.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__builder.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__struct.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__traits.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__builder.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__struct.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__traits.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__builder.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__struct.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__traits.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__builder.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__struct.hpp
+[2.118s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__traits.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__builder.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__struct.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__traits.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__builder.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__struct.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__traits.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_angles.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/get_coords.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/gripper_status.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/pump_status.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_angles.hpp
+[2.119s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/set_coords.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.120s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.121s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.121s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.121s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.121s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.121s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.122s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.122s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.122s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[2.122s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_pump_status__rosidl_typesupport_introspection_cpp.hpp
+[2.122s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.123s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/msg/detail/mypal_set_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/include/mypalletizer_interfaces/mypalletizer_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/pythonpath.sh
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/pythonpath.dsv
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.125s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/__init__.py
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_c.c
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/_mypalletizer_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/libmypalletizer_interfaces__rosidl_generator_py.so
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/__init__.py
+[2.126s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles.py
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_angles_s.c
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords.py
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_coords_s.c
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status.py
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_gripper_status_s.c
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status.py
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_pump_status_s.c
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles.py
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_angles_s.c
+[2.127s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords.py
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg/_mypal_set_coords_s.c
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/__init__.py
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles.py
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_angles_s.c
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords.py
+[2.128s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_get_coords_s.c
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status.py
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_gripper_status_s.c
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status.py
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_pump_status_s.c
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles.py
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_angles_s.c
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords.py
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv/_set_coords_s.c
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.129s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/mypalletizer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalAngles.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalCoords.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetAngles.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetCoords.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalGripperStatus.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalPumpStatus.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords.idl
+[2.130s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords.idl
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus.idl
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus.idl
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalAngles.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalCoords.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetAngles.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalSetCoords.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalGripperStatus.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/msg/MypalPumpStatus.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles.srv
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles_Request.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetAngles_Response.msg
+[2.131s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles.srv
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles_Request.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetAngles_Response.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords.srv
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords_Request.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GetCoords_Response.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords.srv
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords_Request.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/SetCoords_Response.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus.srv
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus_Request.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/GripperStatus_Response.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus.srv
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus_Request.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/srv/PumpStatus_Response.msg
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/package_run_dependencies/mypalletizer_interfaces
+[2.132s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/parent_prefix_path/mypalletizer_interfaces
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/ament_prefix_path.sh
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/ament_prefix_path.dsv
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/path.sh
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/environment/path.dsv
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.bash
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.sh
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.zsh
+[2.133s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/local_setup.dsv
+[2.133s] -- Symlinking: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/package.dsv
+[2.134s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/ament_index/resource_index/packages/mypalletizer_interfaces
+[2.134s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.134s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.134s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.134s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.135s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.135s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.135s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.135s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfacesConfig.cmake
+[2.135s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfacesConfig-version.cmake
+[2.135s] -- Up-to-date symlink: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/package.xml
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_c.so
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_c.so
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_c.so
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.135s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_typesupport_cpp.so
+[2.179s] Listing '/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces'...
+[2.179s] Compiling '/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/__init__.py'...
+[2.179s] Listing '/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/msg'...
+[2.179s] Listing '/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages/mypalletizer_interfaces/srv'...
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/lib/libmypalletizer_interfaces__rosidl_generator_py.so
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cExport.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cExport.cmake
+[2.184s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_cppExport.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cppExport.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/mypalletizer_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_pyExport.cmake
+[2.185s] -- Up-to-date: /home/david/ros2_ws/install/mypalletizer_interfaces/share/mypalletizer_interfaces/cmake/export_mypalletizer_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.188s] Invoked command in '/home/david/ros2_ws/build/mypalletizer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/david/ros2_ws/build/mypalletizer_interfaces

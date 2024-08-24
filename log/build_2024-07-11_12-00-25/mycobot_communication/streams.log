@@ -1,0 +1,23 @@
+[1.011s] Invoking command in '/home/david/ros2_ws/build/mycobot_communication': CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:/home/david/ros2_ws/install/mypalletizer_interfaces/lib:/home/david/ros2_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/david/ros2_ws/build/mycobot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_communication/build --no-deps symlink_data
+[1.279s] running develop
+[1.279s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.279s]   warnings.warn(
+[1.380s] running egg_info
+[1.381s] writing mycobot_communication.egg-info/PKG-INFO
+[1.381s] writing dependency_links to mycobot_communication.egg-info/dependency_links.txt
+[1.381s] writing entry points to mycobot_communication.egg-info/entry_points.txt
+[1.381s] writing requirements to mycobot_communication.egg-info/requires.txt
+[1.381s] writing top-level names to mycobot_communication.egg-info/top_level.txt
+[1.382s] reading manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.382s] writing manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+[1.384s] running build_ext
+[1.384s] Creating /home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot-communication.egg-link (link to .)
+[1.384s] Installing mycobot_services script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+[1.385s] Installing mycobot_topics script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+[1.385s] Installing mycobot_topics_jsnn script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+[1.385s] Installing mycobot_topics_pi script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+[1.385s] Installing mycobot_topics_seeed script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+[1.385s] 
+[1.385s] Installed /home/david/ros2_ws/build/mycobot_communication
+[1.385s] running symlink_data
+[2.230s] Invoked command in '/home/david/ros2_ws/build/mycobot_communication' returned '0': CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mecharm_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:/home/david/ros2_ws/install/mypalletizer_interfaces/lib:/home/david/ros2_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/david/ros2_ws/build/mycobot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_communication/build --no-deps symlink_data

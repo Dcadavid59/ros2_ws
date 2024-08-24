@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mypalletizer_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

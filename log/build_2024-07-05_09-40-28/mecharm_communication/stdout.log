@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing mecharm_communication.egg-info/PKG-INFO
+writing dependency_links to mecharm_communication.egg-info/dependency_links.txt
+writing entry points to mecharm_communication.egg-info/entry_points.txt
+writing requirements to mecharm_communication.egg-info/requires.txt
+writing top-level names to mecharm_communication.egg-info/top_level.txt
+reading manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm-communication.egg-link (link to .)
+Installing mecharm_services script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+Installing mycobot_topics script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+Installing mycobot_topics_jsnn script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+Installing mycobot_topics_pi script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+Installing mycobot_topics_seeed script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+
+Installed /home/david/ros2_ws/build/mecharm_communication
+running symlink_data

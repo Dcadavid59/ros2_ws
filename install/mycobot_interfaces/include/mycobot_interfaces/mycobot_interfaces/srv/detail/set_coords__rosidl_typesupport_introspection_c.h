@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mycobot_interfaces/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h

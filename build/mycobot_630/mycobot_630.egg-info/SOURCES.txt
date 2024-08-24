@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/mycobot_630.rviz
+launch/slider_control.launch.py
+launch/test.launch.py
+mycobot_630/__init__.py
+mycobot_630/slider_control.py
+mycobot_630/test.py
+mycobot_630.egg-info/PKG-INFO
+mycobot_630.egg-info/SOURCES.txt
+mycobot_630.egg-info/dependency_links.txt
+mycobot_630.egg-info/entry_points.txt
+mycobot_630.egg-info/requires.txt
+mycobot_630.egg-info/top_level.txt
+mycobot_630.egg-info/zip-safe
+resource/mycobot_630

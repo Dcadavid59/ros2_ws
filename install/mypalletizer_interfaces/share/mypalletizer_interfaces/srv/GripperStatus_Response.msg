@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mypalletizer_interfaces/rosidl_cmake/srv/GripperStatus_Response.msg

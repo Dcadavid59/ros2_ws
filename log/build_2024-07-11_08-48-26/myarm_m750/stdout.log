@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing myarm_m750.egg-info/PKG-INFO
+writing dependency_links to myarm_m750.egg-info/dependency_links.txt
+writing entry points to myarm_m750.egg-info/entry_points.txt
+writing requirements to myarm_m750.egg-info/requires.txt
+writing top-level names to myarm_m750.egg-info/top_level.txt
+reading manifest file 'myarm_m750.egg-info/SOURCES.txt'
+writing manifest file 'myarm_m750.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/myarm_m750/lib/python3.10/site-packages/myarm-m750.egg-link (link to .)
+Installing combined_control script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing follow_display script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing read_control script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing simple_gui script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing slider_control script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing teleop_keyboard script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+
+Installed /home/david/ros2_ws/build/myarm_m750
+running symlink_data

@@ -1,0 +1,12 @@
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:msg/MecharmAngles.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:msg/MecharmCoords.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:msg/MecharmSetAngles.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:msg/MecharmSetCoords.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:msg/MecharmGripperStatus.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:msg/MecharmPumpStatus.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:srv/GetAngles.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:srv/SetAngles.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:srv/GetCoords.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:srv/SetCoords.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:srv/GripperStatus.idl
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_adapter/mecharm_interfaces:srv/PumpStatus.idl

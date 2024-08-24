@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mycobot_interfaces/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_cpp.hpp

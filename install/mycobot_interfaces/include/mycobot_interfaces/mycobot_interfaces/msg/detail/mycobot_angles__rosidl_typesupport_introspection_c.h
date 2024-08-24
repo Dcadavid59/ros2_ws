@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mycobot_interfaces/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_c.h

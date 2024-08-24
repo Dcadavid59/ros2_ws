@@ -1,0 +1,38 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating myarm_c650.egg-info
+writing myarm_c650.egg-info/PKG-INFO
+writing dependency_links to myarm_c650.egg-info/dependency_links.txt
+writing entry points to myarm_c650.egg-info/entry_points.txt
+writing requirements to myarm_c650.egg-info/requires.txt
+writing top-level names to myarm_c650.egg-info/top_level.txt
+writing manifest file 'myarm_c650.egg-info/SOURCES.txt'
+reading manifest file 'myarm_c650.egg-info/SOURCES.txt'
+writing manifest file 'myarm_c650.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/myarm_c650/lib/python3.10/site-packages/myarm-c650.egg-link (link to .)
+Installing debug script to /home/david/ros2_ws/install/myarm_c650/lib/myarm_c650
+Installing follow_display script to /home/david/ros2_ws/install/myarm_c650/lib/myarm_c650
+Installing simple_gui script to /home/david/ros2_ws/install/myarm_c650/lib/myarm_c650
+Installing slider_control script to /home/david/ros2_ws/install/myarm_c650/lib/myarm_c650
+Installing teleop_keyboard script to /home/david/ros2_ws/install/myarm_c650/lib/myarm_c650
+Installing test script to /home/david/ros2_ws/install/myarm_c650/lib/myarm_c650
+
+Installed /home/david/ros2_ws/build/myarm_c650
+running symlink_data
+creating /home/david/ros2_ws/install/myarm_c650/share/ament_index
+creating /home/david/ros2_ws/install/myarm_c650/share/ament_index/resource_index
+creating /home/david/ros2_ws/install/myarm_c650/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/myarm_c650/resource/myarm_c650 -> /home/david/ros2_ws/install/myarm_c650/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/myarm_c650/package.xml -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650
+creating /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/launch
+symbolically linking /home/david/ros2_ws/build/myarm_c650/launch/test.launch.py -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/launch
+symbolically linking /home/david/ros2_ws/build/myarm_c650/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/launch
+symbolically linking /home/david/ros2_ws/build/myarm_c650/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/launch
+symbolically linking /home/david/ros2_ws/build/myarm_c650/launch/mycobot_follow.launch.py -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/launch
+symbolically linking /home/david/ros2_ws/build/myarm_c650/launch/slider_control.launch.py -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/launch
+creating /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/config
+symbolically linking /home/david/ros2_ws/build/myarm_c650/config/myarm_c650.rviz -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/config
+symbolically linking /home/david/ros2_ws/build/myarm_c650/config/myarm_with_marker.rviz -> /home/david/ros2_ws/install/myarm_c650/share/myarm_c650/config

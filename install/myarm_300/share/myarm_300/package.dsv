@@ -1,0 +1,9 @@
+source;share/myarm_300/hook/pythonpath.ps1
+source;share/myarm_300/hook/pythonpath.dsv
+source;share/myarm_300/hook/pythonpath.sh
+source;share/myarm_300/hook/ament_prefix_path.ps1
+source;share/myarm_300/hook/ament_prefix_path.dsv
+source;share/myarm_300/hook/ament_prefix_path.sh
+source;../../build/myarm_300/share/myarm_300/hook/pythonpath_develop.ps1
+source;../../build/myarm_300/share/myarm_300/hook/pythonpath_develop.dsv
+source;../../build/myarm_300/share/myarm_300/hook/pythonpath_develop.sh

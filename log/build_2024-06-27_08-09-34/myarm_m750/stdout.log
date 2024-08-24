@@ -1,0 +1,40 @@
+running develop
+running egg_info
+creating myarm_m750.egg-info
+writing myarm_m750.egg-info/PKG-INFO
+writing dependency_links to myarm_m750.egg-info/dependency_links.txt
+writing entry points to myarm_m750.egg-info/entry_points.txt
+writing requirements to myarm_m750.egg-info/requires.txt
+writing top-level names to myarm_m750.egg-info/top_level.txt
+writing manifest file 'myarm_m750.egg-info/SOURCES.txt'
+reading manifest file 'myarm_m750.egg-info/SOURCES.txt'
+writing manifest file 'myarm_m750.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/myarm_m750/lib/python3.10/site-packages/myarm-m750.egg-link (link to .)
+Installing combined_control script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing follow_display script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing read_control script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing simple_gui script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing slider_control script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+Installing teleop_keyboard script to /home/david/ros2_ws/install/myarm_m750/lib/myarm_m750
+
+Installed /home/david/ros2_ws/build/myarm_m750
+running symlink_data
+creating /home/david/ros2_ws/install/myarm_m750/share/ament_index
+creating /home/david/ros2_ws/install/myarm_m750/share/ament_index/resource_index
+creating /home/david/ros2_ws/install/myarm_m750/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/myarm_m750/resource/myarm_m750 -> /home/david/ros2_ws/install/myarm_m750/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/myarm_m750/package.xml -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750
+creating /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/test.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/debug.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/combined_control.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/mycobot_follow.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+symbolically linking /home/david/ros2_ws/build/myarm_m750/launch/slider_control.launch.py -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/launch
+creating /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/config
+symbolically linking /home/david/ros2_ws/build/myarm_m750/config/myarm_m_with_myarm_c650.rviz -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/config
+symbolically linking /home/david/ros2_ws/build/myarm_m750/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/config
+symbolically linking /home/david/ros2_ws/build/myarm_m750/config/myarm_m750_with_myarm_c650.rviz -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/config
+symbolically linking /home/david/ros2_ws/build/myarm_m750/config/myarm_m750.rviz -> /home/david/ros2_ws/install/myarm_m750/share/myarm_m750/config

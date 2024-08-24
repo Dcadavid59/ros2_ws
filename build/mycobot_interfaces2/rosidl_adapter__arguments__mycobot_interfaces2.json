@@ -1,0 +1,6 @@
+{
+  "package_name": "mycobot_interfaces2",
+  "non_idl_tuples": [
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces2:msg/MyArucoCoords.msg"
+  ]
+}

@@ -1,0 +1,51 @@
+[1.577s] Invoking command in '/home/david/ros2_ws/build/mycobot_280pi': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mycobot_280pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_communication:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_280pi/build --no-deps symlink_data
+[1.728s] running develop
+[1.728s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.728s]   warnings.warn(
+[1.807s] running egg_info
+[1.807s] creating mycobot_280pi.egg-info
+[1.807s] writing mycobot_280pi.egg-info/PKG-INFO
+[1.807s] writing dependency_links to mycobot_280pi.egg-info/dependency_links.txt
+[1.807s] writing entry points to mycobot_280pi.egg-info/entry_points.txt
+[1.807s] writing requirements to mycobot_280pi.egg-info/requires.txt
+[1.808s] writing top-level names to mycobot_280pi.egg-info/top_level.txt
+[1.808s] writing manifest file 'mycobot_280pi.egg-info/SOURCES.txt'
+[1.808s] reading manifest file 'mycobot_280pi.egg-info/SOURCES.txt'
+[1.809s] writing manifest file 'mycobot_280pi.egg-info/SOURCES.txt'
+[1.810s] running build_ext
+[1.810s] Creating /home/david/ros2_ws/install/mycobot_280pi/lib/python3.10/site-packages/mycobot-280pi.egg-link (link to .)
+[1.810s] Installing camera_display script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.811s] Installing detect_marker script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.811s] Installing follow_display script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.811s] Installing following_marker script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.811s] Installing listen_real script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.812s] Installing listen_real_of_topic script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.812s] Installing opencv_camera script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.812s] Installing simple_gui script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.812s] Installing slider_control script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.812s] Installing teleop_keyboard script to /home/david/ros2_ws/install/mycobot_280pi/lib/mycobot_280pi
+[1.812s] 
+[1.812s] Installed /home/david/ros2_ws/build/mycobot_280pi
+[1.812s] running symlink_data
+[1.812s] creating /home/david/ros2_ws/install/mycobot_280pi/share/ament_index
+[1.813s] creating /home/david/ros2_ws/install/mycobot_280pi/share/ament_index/resource_index
+[1.813s] creating /home/david/ros2_ws/install/mycobot_280pi/share/ament_index/resource_index/packages
+[1.813s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/resource/mycobot_280pi -> /home/david/ros2_ws/install/mycobot_280pi/share/ament_index/resource_index/packages
+[1.813s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/package.xml -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi
+[1.813s] creating /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.813s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/slider_control_camera_flange.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.813s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/test.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/detect_marker_with_topic.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/test_camera_flange_pump.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/test_pump.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/test_camera_flange.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/mycobot_follow.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.814s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.815s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/slider_control_pump.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.815s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/launch/detect_marker.launch.py -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/launch
+[1.815s] creating /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/config
+[1.815s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/config/mycobot_pi.rviz -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/config
+[1.815s] symbolically linking /home/david/ros2_ws/build/mycobot_280pi/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/mycobot_280pi/share/mycobot_280pi/config
+[1.838s] Invoked command in '/home/david/ros2_ws/build/mycobot_280pi' returned '0': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mycobot_280pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_communication:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_280pi/build --no-deps symlink_data

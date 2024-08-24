@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ultraarm.egg-info/PKG-INFO
+writing dependency_links to ultraarm.egg-info/dependency_links.txt
+writing entry points to ultraarm.egg-info/entry_points.txt
+writing requirements to ultraarm.egg-info/requires.txt
+writing top-level names to ultraarm.egg-info/top_level.txt
+reading manifest file 'ultraarm.egg-info/SOURCES.txt'
+writing manifest file 'ultraarm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/ultraarm/lib/python3.10/site-packages/ultraarm.egg-link (link to .)
+Installing listen_real script to /home/david/ros2_ws/install/ultraarm/lib/ultraarm
+Installing listen_real_of_topic script to /home/david/ros2_ws/install/ultraarm/lib/ultraarm
+Installing simple_gui script to /home/david/ros2_ws/install/ultraarm/lib/ultraarm
+Installing slider_control script to /home/david/ros2_ws/install/ultraarm/lib/ultraarm
+Installing teleop_keyboard script to /home/david/ros2_ws/install/ultraarm/lib/ultraarm
+
+Installed /home/david/ros2_ws/build/ultraarm
+running symlink_data

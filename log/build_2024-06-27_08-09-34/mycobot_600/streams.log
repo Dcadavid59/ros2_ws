@@ -1,0 +1,31 @@
+[0.820s] Invoking command in '/home/david/ros2_ws/build/mycobot_600': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mycobot_600/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_communication:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_600/build --no-deps symlink_data
+[1.059s] running develop
+[1.060s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.060s]   warnings.warn(
+[1.144s] running egg_info
+[1.144s] creating mycobot_600.egg-info
+[1.144s] writing mycobot_600.egg-info/PKG-INFO
+[1.144s] writing dependency_links to mycobot_600.egg-info/dependency_links.txt
+[1.144s] writing entry points to mycobot_600.egg-info/entry_points.txt
+[1.145s] writing requirements to mycobot_600.egg-info/requires.txt
+[1.145s] writing top-level names to mycobot_600.egg-info/top_level.txt
+[1.145s] writing manifest file 'mycobot_600.egg-info/SOURCES.txt'
+[1.146s] reading manifest file 'mycobot_600.egg-info/SOURCES.txt'
+[1.146s] writing manifest file 'mycobot_600.egg-info/SOURCES.txt'
+[1.147s] running build_ext
+[1.147s] Creating /home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages/mycobot-600.egg-link (link to .)
+[1.148s] Installing slider_control script to /home/david/ros2_ws/install/mycobot_600/lib/mycobot_600
+[1.148s] 
+[1.148s] Installed /home/david/ros2_ws/build/mycobot_600
+[1.148s] running symlink_data
+[1.148s] creating /home/david/ros2_ws/install/mycobot_600/share/ament_index
+[1.148s] creating /home/david/ros2_ws/install/mycobot_600/share/ament_index/resource_index
+[1.148s] creating /home/david/ros2_ws/install/mycobot_600/share/ament_index/resource_index/packages
+[1.148s] symbolically linking /home/david/ros2_ws/build/mycobot_600/resource/mycobot_600 -> /home/david/ros2_ws/install/mycobot_600/share/ament_index/resource_index/packages
+[1.148s] symbolically linking /home/david/ros2_ws/build/mycobot_600/package.xml -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600
+[1.148s] creating /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/launch
+[1.148s] symbolically linking /home/david/ros2_ws/build/mycobot_600/launch/test.launch.py -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/launch
+[1.148s] symbolically linking /home/david/ros2_ws/build/mycobot_600/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/launch
+[1.148s] creating /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/config
+[1.148s] symbolically linking /home/david/ros2_ws/build/mycobot_600/config/mycobot_600.rviz -> /home/david/ros2_ws/install/mycobot_600/share/mycobot_600/config
+[1.172s] Invoked command in '/home/david/ros2_ws/build/mycobot_600' returned '0': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mycobot_600/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_communication:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_600/build --no-deps symlink_data

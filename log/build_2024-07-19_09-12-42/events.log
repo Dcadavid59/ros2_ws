@@ -1,0 +1,696 @@
+[0.000000] (-) TimerEvent: {}
+[0.000914] (-) JobUnselected: {'identifier': 'mecharm'}
+[0.000971] (-) JobUnselected: {'identifier': 'mecharm_communication'}
+[0.000998] (-) JobUnselected: {'identifier': 'mecharm_interfaces'}
+[0.001015] (-) JobUnselected: {'identifier': 'mecharm_pi'}
+[0.001037] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001060] (-) JobUnselected: {'identifier': 'myarm_300'}
+[0.001082] (-) JobUnselected: {'identifier': 'myarm_c650'}
+[0.001096] (-) JobUnselected: {'identifier': 'myarm_m750'}
+[0.001111] (-) JobUnselected: {'identifier': 'mybuddy'}
+[0.001124] (-) JobUnselected: {'identifier': 'mycobot_280'}
+[0.001143] (-) JobUnselected: {'identifier': 'mycobot_280_x3pi'}
+[0.001169] (-) JobUnselected: {'identifier': 'mycobot_280jn'}
+[0.001190] (-) JobUnselected: {'identifier': 'mycobot_280pi'}
+[0.001211] (-) JobUnselected: {'identifier': 'mycobot_320'}
+[0.001226] (-) JobUnselected: {'identifier': 'mycobot_320pi'}
+[0.001247] (-) JobUnselected: {'identifier': 'mycobot_600'}
+[0.001269] (-) JobUnselected: {'identifier': 'mycobot_630'}
+[0.001285] (-) JobUnselected: {'identifier': 'mycobot_communication'}
+[0.001300] (-) JobUnselected: {'identifier': 'mycobot_description'}
+[0.001322] (-) JobUnselected: {'identifier': 'mypalletizer_260'}
+[0.001344] (-) JobUnselected: {'identifier': 'mypalletizer_260_pi'}
+[0.001361] (-) JobUnselected: {'identifier': 'mypalletizer_communication'}
+[0.001376] (-) JobUnselected: {'identifier': 'mypalletizer_interfaces'}
+[0.001398] (-) JobUnselected: {'identifier': 'ultraarm'}
+[0.001422] (mycobot_interfaces) JobQueued: {'identifier': 'mycobot_interfaces', 'dependencies': OrderedDict()}
+[0.001446] (mycobot_interfaces) JobStarted: {'identifier': 'mycobot_interfaces'}
+[0.017363] (mycobot_interfaces) JobProgress: {'identifier': 'mycobot_interfaces', 'progress': 'cmake'}
+[0.018341] (mycobot_interfaces) JobProgress: {'identifier': 'mycobot_interfaces', 'progress': 'build'}
+[0.019427] (mycobot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/ros2_ws/build/mycobot_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/david/ros2_ws/build/mycobot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/david/ros2_ws/install/mypalletizer_interfaces/lib:/home/david/ros2_ws/install/mycobot_interfaces2/lib:/home/david/ros2_ws/install/mycobot_interfaces/lib:/home/david/ros2_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1473'), ('SYSTEMD_EXEC_PID', '1821'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7054'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/david/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('JOURNAL_STREAM', '8:38950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dC-V14:@/tmp/.ICE-unix/1618,unix/dC-V14:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', 'c9a103c1dc2d44e2ab1131aa275b3aac'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.782RQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/home/david/ros2_ws/install/my_py_pkg:/home/david/ros2_ws/install/mecharm_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5033b672-8e9d-4c39-b51f-4ea0ab9dff18'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros2_ws/build/mycobot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/ros2_ws/build/ultraarm:/home/david/ros2_ws/install/ultraarm/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_260/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_630:/home/david/ros2_ws/install/mycobot_630/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_600:/home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_320:/home/david/ros2_ws/install/mycobot_320/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280jn/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280:/home/david/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/david/ros2_ws/build/myarm_m750:/home/david/ros2_ws/install/myarm_m750/lib/python3.10/site-packages:/home/david/ros2_ws/build/myarm_c650:/home/david/ros2_ws/install/myarm_c650/lib/python3.10/site-packages:/home/david/ros2_ws/build/myarm_300:/home/david/ros2_ws/install/myarm_300/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_communication:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_pi:/home/david/ros2_ws/install/mecharm_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm:/home/david/ros2_ws/install/mecharm/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_communication:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mybuddy:/home/david/ros2_ws/install/mybuddy/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:/home/david/ros2_ws/build/my_py_pkg:/home/david/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/david/ros2_ws/install/mecharm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mycobot_interfaces2:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mecharm_interfaces:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/home/david/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.055858] (mycobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099674] (-) TimerEvent: {}
+[0.200052] (-) TimerEvent: {}
+[0.288783] (mycobot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.295849] (mycobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.300172] (-) TimerEvent: {}
+[0.303742] (mycobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.308374] (mycobot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.351399] (mycobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.381508] (mycobot_interfaces) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.381848] (mycobot_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.400287] (-) TimerEvent: {}
+[0.500586] (-) TimerEvent: {}
+[0.600911] (-) TimerEvent: {}
+[0.701213] (-) TimerEvent: {}
+[0.801520] (-) TimerEvent: {}
+[0.901845] (-) TimerEvent: {}
+[1.002156] (-) TimerEvent: {}
+[1.025597] (mycobot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.102305] (-) TimerEvent: {}
+[1.202654] (-) TimerEvent: {}
+[1.303100] (-) TimerEvent: {}
+[1.403400] (-) TimerEvent: {}
+[1.429674] (mycobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503568] (-) TimerEvent: {}
+[1.603936] (-) TimerEvent: {}
+[1.704309] (-) TimerEvent: {}
+[1.804601] (-) TimerEvent: {}
+[1.904924] (-) TimerEvent: {}
+[1.959026] (mycobot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.005031] (-) TimerEvent: {}
+[2.012010] (mycobot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.047037] (mycobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.047266] (mycobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.047375] (mycobot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.105144] (-) TimerEvent: {}
+[2.114731] (mycobot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.137749] (mycobot_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.141302] (mycobot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.143409] (mycobot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.148777] (mycobot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.205265] (-) TimerEvent: {}
+[2.238324] (mycobot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.240945] (mycobot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/david/ros2_ws/build/mycobot_interfaces\n'}
+[2.270176] (mycobot_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.283135] (mycobot_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.293972] (mycobot_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_mycobot_interfaces\n'}
+[2.305392] (-) TimerEvent: {}
+[2.406382] (-) TimerEvent: {}
+[2.506732] (-) TimerEvent: {}
+[2.607078] (-) TimerEvent: {}
+[2.707434] (-) TimerEvent: {}
+[2.794388] (mycobot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.795710] (mycobot_interfaces) StdoutLine: {'line': b'writing mycobot_interfaces.egg-info/PKG-INFO\n'}
+[2.796115] (mycobot_interfaces) StdoutLine: {'line': b'writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt\n'}
+[2.796444] (mycobot_interfaces) StdoutLine: {'line': b'writing top-level names to mycobot_interfaces.egg-info/top_level.txt\n'}
+[2.800805] (mycobot_interfaces) StdoutLine: {'line': b"reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'\n"}
+[2.802510] (mycobot_interfaces) StdoutLine: {'line': b"writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'\n"}
+[2.807864] (-) TimerEvent: {}
+[2.852845] (mycobot_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_mycobot_interfaces_egg\n'}
+[2.908024] (-) TimerEvent: {}
+[3.008381] (-) TimerEvent: {}
+[3.108739] (-) TimerEvent: {}
+[3.209115] (-) TimerEvent: {}
+[3.309473] (-) TimerEvent: {}
+[3.409823] (-) TimerEvent: {}
+[3.510325] (-) TimerEvent: {}
+[3.610661] (-) TimerEvent: {}
+[3.711061] (-) TimerEvent: {}
+[3.811901] (-) TimerEvent: {}
+[3.912313] (-) TimerEvent: {}
+[4.000584] (mycobot_interfaces) StdoutLine: {'line': b'[  1%] Built target mycobot_interfaces__cpp\n'}
+[4.012459] (-) TimerEvent: {}
+[4.019987] (mycobot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.020353] (mycobot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.020509] (mycobot_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.037255] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[4.060707] (mycobot_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.c.o\x1b[0m\n'}
+[4.061987] (mycobot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_coords__functions.c.o\x1b[0m\n'}
+[4.062514] (mycobot_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_angles__functions.c.o\x1b[0m\n'}
+[4.064039] (mycobot_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.c.o\x1b[0m\n'}
+[4.064285] (mycobot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.c.o\x1b[0m\n'}
+[4.072732] (mycobot_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/my_aruco_coords__functions.c.o\x1b[0m\n'}
+[4.077532] (mycobot_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_angles__functions.c.o\x1b[0m\n'}
+[4.081503] (mycobot_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_angles__functions.c.o\x1b[0m\n'}
+[4.082057] (mycobot_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.c.o\x1b[0m\n'}
+[4.112573] (-) TimerEvent: {}
+[4.169503] (mycobot_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_coords__functions.c.o\x1b[0m\n'}
+[4.170454] (mycobot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/set_coords__functions.c.o\x1b[0m\n'}
+[4.171084] (mycobot_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/gripper_status__functions.c.o\x1b[0m\n'}
+[4.173086] (mycobot_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/pump_status__functions.c.o\x1b[0m\n'}
+[4.212701] (-) TimerEvent: {}
+[4.290772] (mycobot_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libmycobot_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.312905] (-) TimerEvent: {}
+[4.376145] (mycobot_interfaces) StdoutLine: {'line': b'[ 14%] Built target mycobot_interfaces__rosidl_generator_c\n'}
+[4.397159] (mycobot_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.397599] (mycobot_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.401063] (mycobot_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.413053] (-) TimerEvent: {}
+[4.513455] (-) TimerEvent: {}
+[4.613793] (-) TimerEvent: {}
+[4.714164] (-) TimerEvent: {}
+[4.814560] (-) TimerEvent: {}
+[4.915113] (-) TimerEvent: {}
+[5.017580] (-) TimerEvent: {}
+[5.117981] (-) TimerEvent: {}
+[5.187586] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.218112] (-) TimerEvent: {}
+[5.220658] (mycobot_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_angles__type_support.cpp.o\x1b[0m\n'}
+[5.221002] (mycobot_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_set_coords__type_support.cpp.o\x1b[0m\n'}
+[5.221307] (mycobot_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp.o\x1b[0m\n'}
+[5.221582] (mycobot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_gripper_status__type_support.cpp.o\x1b[0m\n'}
+[5.222765] (mycobot_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_coords__type_support.cpp.o\x1b[0m\n'}
+[5.232668] (mycobot_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/my_aruco_coords__type_support.cpp.o\x1b[0m\n'}
+[5.233049] (mycobot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/msg/mycobot_pump_status__type_support.cpp.o\x1b[0m\n'}
+[5.318222] (-) TimerEvent: {}
+[5.418610] (-) TimerEvent: {}
+[5.519025] (-) TimerEvent: {}
+[5.619453] (-) TimerEvent: {}
+[5.720059] (-) TimerEvent: {}
+[5.820610] (-) TimerEvent: {}
+[5.914755] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.920760] (-) TimerEvent: {}
+[5.944646] (mycobot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_angles__type_support.cpp.o\x1b[0m\n'}
+[5.954201] (mycobot_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/get_angles__type_support.cpp.o\x1b[0m\n'}
+[5.958180] (mycobot_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/set_angles__type_support.cpp.o\x1b[0m\n'}
+[5.968209] (mycobot_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_coords__type_support.cpp.o\x1b[0m\n'}
+[5.974742] (mycobot_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/get_coords__type_support.cpp.o\x1b[0m\n'}
+[5.977334] (mycobot_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_angles__type_support.cpp.o\x1b[0m\n'}
+[5.996287] (mycobot_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_set_coords__type_support.cpp.o\x1b[0m\n'}
+[6.002191] (mycobot_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/set_coords__type_support.cpp.o\x1b[0m\n'}
+[6.006683] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.019437] (mycobot_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_gripper_status__type_support.cpp.o\x1b[0m\n'}
+[6.020851] (-) TimerEvent: {}
+[6.032989] (mycobot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/my_aruco_coords__type_support.cpp.o\x1b[0m\n'}
+[6.033274] (mycobot_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/msg/mycobot_pump_status__type_support.cpp.o\x1b[0m\n'}
+[6.051040] (mycobot_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_angles__type_support.cpp.o\x1b[0m\n'}
+[6.058740] (mycobot_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/get_angles__type_support.cpp.o\x1b[0m\n'}
+[6.112358] (mycobot_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/set_angles__type_support.cpp.o\x1b[0m\n'}
+[6.112716] (mycobot_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/get_coords__type_support.cpp.o\x1b[0m\n'}
+[6.122777] (-) TimerEvent: {}
+[6.167830] (mycobot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/gripper_status__type_support.cpp.o\x1b[0m\n'}
+[6.182374] (mycobot_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/set_coords__type_support.cpp.o\x1b[0m\n'}
+[6.222917] (-) TimerEvent: {}
+[6.272825] (mycobot_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/gripper_status__type_support.cpp.o\x1b[0m\n'}
+[6.323063] (-) TimerEvent: {}
+[6.354800] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.357225] (mycobot_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/pump_status__type_support.cpp.o\x1b[0m\n'}
+[6.411155] (mycobot_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_angles__type_support.cpp.o\x1b[0m\n'}
+[6.423209] (-) TimerEvent: {}
+[6.442660] (mycobot_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_coords__type_support.cpp.o\x1b[0m\n'}
+[6.462461] (mycobot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.523364] (-) TimerEvent: {}
+[6.552282] (mycobot_interfaces) StdoutLine: {'line': b'[ 41%] Built target mycobot_interfaces__rosidl_typesupport_c\n'}
+[6.554645] (mycobot_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/pump_status__type_support.cpp.o\x1b[0m\n'}
+[6.559916] (mycobot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_set_angles__type_support.cpp.o\x1b[0m\n'}
+[6.564904] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.566726] (mycobot_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_set_coords__type_support.cpp.o\x1b[0m\n'}
+[6.568556] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.571370] (mycobot_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_gripper_status__type_support.cpp.o\x1b[0m\n'}
+[6.587833] (mycobot_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_coords__type_support.cpp.o\x1b[0m\n'}
+[6.612498] (mycobot_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_angles__type_support.c.o\x1b[0m\n'}
+[6.648787] (mycobot_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_coords__type_support.c.o\x1b[0m\n'}
+[6.649176] (-) TimerEvent: {}
+[6.653031] (mycobot_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_angles__type_support_c.cpp.o\x1b[0m\n'}
+[6.717902] (mycobot_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_coords__type_support_c.cpp.o\x1b[0m\n'}
+[6.738699] (mycobot_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.c.o\x1b[0m\n'}
+[6.749321] (-) TimerEvent: {}
+[6.768942] (mycobot_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.cpp.o\x1b[0m\n'}
+[6.825223] (mycobot_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.c.o\x1b[0m\n'}
+[6.849463] (-) TimerEvent: {}
+[6.901326] (mycobot_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.c.o\x1b[0m\n'}
+[6.949602] (-) TimerEvent: {}
+[6.966427] (mycobot_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.c.o\x1b[0m\n'}
+[7.049740] (-) TimerEvent: {}
+[7.050144] (mycobot_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.cpp.o\x1b[0m\n'}
+[7.073999] (mycobot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/msg/detail/my_aruco_coords__type_support.c.o\x1b[0m\n'}
+[7.149890] (-) TimerEvent: {}
+[7.157752] (mycobot_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/get_angles__type_support.c.o\x1b[0m\n'}
+[7.250037] (-) TimerEvent: {}
+[7.301820] (mycobot_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/set_angles__type_support.c.o\x1b[0m\n'}
+[7.350649] (-) TimerEvent: {}
+[7.418451] (mycobot_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.450821] (-) TimerEvent: {}
+[7.451382] (mycobot_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/get_coords__type_support.c.o\x1b[0m\n'}
+[7.520759] (mycobot_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/my_aruco_coords__type_support.cpp.o\x1b[0m\n'}
+[7.527530] (mycobot_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/msg/detail/dds_fastrtps/mycobot_pump_status__type_support.cpp.o\x1b[0m\n'}
+[7.540961] (mycobot_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/get_angles__type_support.cpp.o\x1b[0m\n'}
+[7.550948] (-) TimerEvent: {}
+[7.562677] (mycobot_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support_c.cpp.o\x1b[0m\n'}
+[7.563222] (mycobot_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/set_coords__type_support.c.o\x1b[0m\n'}
+[7.570721] (mycobot_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support_c.cpp.o\x1b[0m\n'}
+[7.573667] (mycobot_interfaces) StdoutLine: {'line': b'[ 62%] Built target mycobot_interfaces__rosidl_typesupport_cpp\n'}
+[7.590949] (mycobot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/gripper_status__type_support.c.o\x1b[0m\n'}
+[7.605255] (mycobot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/pump_status__type_support.c.o\x1b[0m\n'}
+[7.607223] (mycobot_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/set_angles__type_support.cpp.o\x1b[0m\n'}
+[7.651203] (-) TimerEvent: {}
+[7.662688] (mycobot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/get_coords__type_support.cpp.o\x1b[0m\n'}
+[7.669158] (mycobot_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.cpp.o\x1b[0m\n'}
+[7.674079] (mycobot_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.cpp.o\x1b[0m\n'}
+[7.679963] (mycobot_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libmycobot_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.751351] (-) TimerEvent: {}
+[7.789190] (mycobot_interfaces) StdoutLine: {'line': b'[ 66%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.807637] (mycobot_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/msg/detail/my_aruco_coords__type_support.cpp.o\x1b[0m\n'}
+[7.851507] (-) TimerEvent: {}
+[7.951938] (-) TimerEvent: {}
+[7.965676] (mycobot_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/get_angles__type_support.cpp.o\x1b[0m\n'}
+[8.058293] (-) TimerEvent: {}
+[8.108995] (mycobot_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/set_angles__type_support.cpp.o\x1b[0m\n'}
+[8.172784] (-) TimerEvent: {}
+[8.276792] (-) TimerEvent: {}
+[8.350496] (mycobot_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.356340] (mycobot_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/set_coords__type_support.cpp.o\x1b[0m\n'}
+[8.376917] (-) TimerEvent: {}
+[8.429189] (mycobot_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/gripper_status__type_support.cpp.o\x1b[0m\n'}
+[8.477044] (-) TimerEvent: {}
+[8.486184] (mycobot_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/pump_status__type_support.cpp.o\x1b[0m\n'}
+[8.523271] (mycobot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.542554] (mycobot_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/get_coords__type_support.cpp.o\x1b[0m\n'}
+[8.565467] (mycobot_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/set_coords__type_support.cpp.o\x1b[0m\n'}
+[8.577183] (-) TimerEvent: {}
+[8.578954] (mycobot_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/gripper_status__type_support.cpp.o\x1b[0m\n'}
+[8.677324] (-) TimerEvent: {}
+[8.681137] (mycobot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/pump_status__type_support.cpp.o\x1b[0m\n'}
+[8.777465] (-) TimerEvent: {}
+[8.840664] (mycobot_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/msg/detail/my_aruco_coords__type_support_c.cpp.o\x1b[0m\n'}
+[8.877603] (-) TimerEvent: {}
+[8.978897] (-) TimerEvent: {}
+[9.016388] (mycobot_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/get_angles__type_support_c.cpp.o\x1b[0m\n'}
+[9.079002] (-) TimerEvent: {}
+[9.179452] (-) TimerEvent: {}
+[9.239246] (mycobot_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/set_angles__type_support_c.cpp.o\x1b[0m\n'}
+[9.254844] (mycobot_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/get_coords__type_support_c.cpp.o\x1b[0m\n'}
+[9.279609] (-) TimerEvent: {}
+[9.284935] (mycobot_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/set_coords__type_support_c.cpp.o\x1b[0m\n'}
+[9.328763] (mycobot_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/gripper_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.379764] (-) TimerEvent: {}
+[9.390737] (mycobot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/pump_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.479908] (-) TimerEvent: {}
+[9.580393] (-) TimerEvent: {}
+[9.681140] (-) TimerEvent: {}
+[9.737750] (mycobot_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.777790] (mycobot_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.782487] (-) TimerEvent: {}
+[9.882914] (-) TimerEvent: {}
+[9.893317] (mycobot_interfaces) StdoutLine: {'line': b'[ 83%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.894847] (mycobot_interfaces) StdoutLine: {'line': b'[ 83%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.983307] (-) TimerEvent: {}
+[10.084776] (-) TimerEvent: {}
+[10.162334] (mycobot_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.184903] (-) TimerEvent: {}
+[10.266640] (mycobot_interfaces) StdoutLine: {'line': b'[ 84%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.285044] (-) TimerEvent: {}
+[10.294312] (mycobot_interfaces) StdoutLine: {'line': b'[ 84%] Built target mycobot_interfaces\n'}
+[10.326623] (mycobot_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.385153] (-) TimerEvent: {}
+[10.485528] (-) TimerEvent: {}
+[10.585903] (-) TimerEvent: {}
+[10.686262] (-) TimerEvent: {}
+[10.786672] (-) TimerEvent: {}
+[10.887090] (-) TimerEvent: {}
+[10.987430] (-) TimerEvent: {}
+[11.087905] (-) TimerEvent: {}
+[11.188291] (-) TimerEvent: {}
+[11.288631] (-) TimerEvent: {}
+[11.388963] (-) TimerEvent: {}
+[11.489288] (-) TimerEvent: {}
+[11.589632] (-) TimerEvent: {}
+[11.689978] (-) TimerEvent: {}
+[11.790379] (-) TimerEvent: {}
+[11.890766] (-) TimerEvent: {}
+[11.991118] (-) TimerEvent: {}
+[12.091616] (-) TimerEvent: {}
+[12.191919] (-) TimerEvent: {}
+[12.292268] (-) TimerEvent: {}
+[12.392587] (-) TimerEvent: {}
+[12.492973] (-) TimerEvent: {}
+[12.585653] (mycobot_interfaces) StdoutLine: {'line': b'[ 85%] Built target mycobot_interfaces__py\n'}
+[12.593084] (-) TimerEvent: {}
+[12.600275] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[12.632850] (mycobot_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_angles_s.c.o\x1b[0m\n'}
+[12.634684] (mycobot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_set_angles_s.c.o\x1b[0m\n'}
+[12.634948] (mycobot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_set_coords_s.c.o\x1b[0m\n'}
+[12.635240] (mycobot_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_coords_s.c.o\x1b[0m\n'}
+[12.637219] (mycobot_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_gripper_status_s.c.o\x1b[0m\n'}
+[12.641721] (mycobot_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_mycobot_pump_status_s.c.o\x1b[0m\n'}
+[12.648047] (mycobot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_get_angles_s.c.o\x1b[0m\n'}
+[12.651571] (mycobot_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/msg/_my_aruco_coords_s.c.o\x1b[0m\n'}
+[12.693202] (-) TimerEvent: {}
+[12.718320] (mycobot_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_set_angles_s.c.o\x1b[0m\n'}
+[12.727594] (mycobot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_get_coords_s.c.o\x1b[0m\n'}
+[12.742249] (mycobot_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_gripper_status_s.c.o\x1b[0m\n'}
+[12.752903] (mycobot_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_set_coords_s.c.o\x1b[0m\n'}
+[12.793335] (-) TimerEvent: {}
+[12.895173] (-) TimerEvent: {}
+[12.902863] (mycobot_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_pump_status_s.c.o\x1b[0m\n'}
+[12.995330] (-) TimerEvent: {}
+[13.031952] (mycobot_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/libmycobot_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.095476] (-) TimerEvent: {}
+[13.103340] (mycobot_interfaces) StdoutLine: {'line': b'[ 96%] Built target mycobot_interfaces__rosidl_generator_py\n'}
+[13.117711] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.122073] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.123279] (mycobot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.138400] (mycobot_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.144233] (mycobot_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.144593] (mycobot_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.195601] (-) TimerEvent: {}
+[13.296774] (-) TimerEvent: {}
+[13.357611] (mycobot_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.374725] (mycobot_interfaces) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.396890] (-) TimerEvent: {}
+[13.399985] (mycobot_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.428542] (mycobot_interfaces) StdoutLine: {'line': b'[100%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext\n'}
+[13.439202] (mycobot_interfaces) StdoutLine: {'line': b'[100%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.454316] (mycobot_interfaces) StdoutLine: {'line': b'[100%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.468541] (mycobot_interfaces) CommandEnded: {'returncode': 0}
+[13.496982] (-) TimerEvent: {}
+[13.597302] (-) TimerEvent: {}
+[13.697649] (-) TimerEvent: {}
+[13.797986] (-) TimerEvent: {}
+[13.804553] (mycobot_interfaces) JobProgress: {'identifier': 'mycobot_interfaces', 'progress': 'install'}
+[13.816252] (mycobot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/ros2_ws/build/mycobot_interfaces'], 'cwd': '/home/david/ros2_ws/build/mycobot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'david'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/david/ros2_ws/install/mypalletizer_interfaces/lib:/home/david/ros2_ws/install/mycobot_interfaces2/lib:/home/david/ros2_ws/install/mycobot_interfaces/lib:/home/david/ros2_ws/install/mecharm_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/david'), ('OLDPWD', '/home/david'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1473'), ('SYSTEMD_EXEC_PID', '1821'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7054'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/david/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'david'), ('JOURNAL_STREAM', '8:38950'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'david'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dC-V14:@/tmp/.ICE-unix/1618,unix/dC-V14:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', 'c9a103c1dc2d44e2ab1131aa275b3aac'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.782RQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/home/david/ros2_ws/install/my_py_pkg:/home/david/ros2_ws/install/mecharm_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5033b672-8e9d-4c39-b51f-4ea0ab9dff18'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/david/ros2_ws/build/mycobot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/david/ros2_ws/build/ultraarm:/home/david/ros2_ws/install/ultraarm/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_260/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_630:/home/david/ros2_ws/install/mycobot_630/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_600:/home/david/ros2_ws/install/mycobot_600/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_320:/home/david/ros2_ws/install/mycobot_320/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280jn/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280_x3pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_280:/home/david/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/david/ros2_ws/build/myarm_m750:/home/david/ros2_ws/install/myarm_m750/lib/python3.10/site-packages:/home/david/ros2_ws/build/myarm_c650:/home/david/ros2_ws/install/myarm_c650/lib/python3.10/site-packages:/home/david/ros2_ws/build/myarm_300:/home/david/ros2_ws/install/myarm_300/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_communication:/home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_pi:/home/david/ros2_ws/install/mecharm_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm:/home/david/ros2_ws/install/mecharm/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_communication:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mybuddy:/home/david/ros2_ws/install/mybuddy/lib/python3.10/site-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:/home/david/ros2_ws/build/my_py_pkg:/home/david/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/david/ros2_ws/install/mecharm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mycobot_interfaces2:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mecharm_interfaces:/home/david/ros2_ws/install/ultraarm:/home/david/ros2_ws/install/mypalletizer_260_pi:/home/david/ros2_ws/install/mypalletizer_260:/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mycobot_630:/home/david/ros2_ws/install/mycobot_600:/home/david/ros2_ws/install/mycobot_320pi:/home/david/ros2_ws/install/mycobot_320:/home/david/ros2_ws/install/mycobot_280pi:/home/david/ros2_ws/install/mycobot_280jn:/home/david/ros2_ws/install/mycobot_280_x3pi:/home/david/ros2_ws/install/mycobot_280:/home/david/ros2_ws/install/myarm_m750:/home/david/ros2_ws/install/myarm_c650:/home/david/ros2_ws/install/myarm_300:/home/david/ros2_ws/install/mycobot_communication:/home/david/ros2_ws/install/mecharm_pi:/home/david/ros2_ws/install/mecharm:/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mybuddy:/home/david/ros2_ws/install/mycobot_description:/home/david/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[13.826484] (mycobot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.827427] (mycobot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.827726] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mycobot_interfaces\n'}
+[13.832590] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__functions.h\n'}
+[13.832928] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__struct.h\n'}
+[13.833186] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__type_support.h\n'}
+[13.833366] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__functions.h\n'}
+[13.833542] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.h\n'}
+[13.833781] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.h\n'}
+[13.834028] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__functions.h\n'}
+[13.834269] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__struct.h\n'}
+[13.834483] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__type_support.h\n'}
+[13.834840] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__functions.h\n'}
+[13.835077] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.h\n'}
+[13.835274] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.h\n'}
+[13.835499] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.h\n'}
+[13.835702] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.h\n'}
+[13.835976] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.h\n'}
+[13.836266] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.h\n'}
+[13.836493] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.h\n'}
+[13.836756] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.h\n'}
+[13.837031] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.h\n'}
+[13.837280] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.h\n'}
+[13.837551] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.h\n'}
+[13.837794] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.h\n'}
+[13.838028] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.h\n'}
+[13.838257] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.h\n'}
+[13.838494] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/my_aruco_coords.h\n'}
+[13.838712] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.h\n'}
+[13.838936] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_aruco_coords.h\n'}
+[13.839168] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.h\n'}
+[13.839375] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.h\n'}
+[13.839613] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.h\n'}
+[13.839852] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.h\n'}
+[13.840081] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.h\n'}
+[13.840310] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.840767] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__functions.h\n'}
+[13.840989] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.h\n'}
+[13.841196] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.h\n'}
+[13.841488] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__functions.h\n'}
+[13.841767] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.h\n'}
+[13.842066] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.h\n'}
+[13.842619] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__functions.h\n'}
+[13.842912] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.h\n'}
+[13.843115] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.h\n'}
+[13.843328] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__functions.h\n'}
+[13.843579] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.h\n'}
+[13.843816] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.h\n'}
+[13.844028] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__functions.h\n'}
+[13.844249] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.h\n'}
+[13.844457] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.h\n'}
+[13.844745] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__functions.h\n'}
+[13.844992] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.h\n'}
+[13.845224] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.h\n'}
+[13.845469] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.h\n'}
+[13.845697] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.h\n'}
+[13.845941] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.h\n'}
+[13.846147] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.h\n'}
+[13.846376] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.h\n'}
+[13.846583] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.h\n'}
+[13.846878] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.sh\n'}
+[13.847109] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.dsv\n'}
+[13.848523] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__rosidl_typesupport_fastrtps_c.h\n'}
+[13.848803] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_c.h\n'}
+[13.849055] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__rosidl_typesupport_fastrtps_c.h\n'}
+[13.849282] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_c.h\n'}
+[13.849559] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.849758] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.849971] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_c.h\n'}
+[13.850162] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_c.h\n'}
+[13.850370] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.850591] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h\n'}
+[13.850787] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h\n'}
+[13.851012] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.851232] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.851439] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h\n'}
+[13.851653] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h\n'}
+[13.852562] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__rosidl_typesupport_introspection_c.h\n'}
+[13.852780] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_c.h\n'}
+[13.853101] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__rosidl_typesupport_introspection_c.h\n'}
+[13.853296] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_c.h\n'}
+[13.853440] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_c.h\n'}
+[13.853676] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_c.h\n'}
+[13.853896] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_c.h\n'}
+[13.854147] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_c.h\n'}
+[13.854368] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.854600] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h\n'}
+[13.854812] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h\n'}
+[13.855029] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h\n'}
+[13.855268] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h\n'}
+[13.855497] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h\n'}
+[13.855724] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h\n'}
+[13.857144] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__builder.hpp\n'}
+[13.857448] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__struct.hpp\n'}
+[13.857835] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__traits.hpp\n'}
+[13.858017] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__builder.hpp\n'}
+[13.858176] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.hpp\n'}
+[13.858391] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__traits.hpp\n'}
+[13.858569] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__builder.hpp\n'}
+[13.858765] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__struct.hpp\n'}
+[13.858951] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__traits.hpp\n'}
+[13.859179] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__builder.hpp\n'}
+[13.859399] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.hpp\n'}
+[13.859656] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__traits.hpp\n'}
+[13.859825] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__builder.hpp\n'}
+[13.860048] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.hpp\n'}
+[13.860217] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__traits.hpp\n'}
+[13.860417] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__builder.hpp\n'}
+[13.860980] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.hpp\n'}
+[13.861409] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__traits.hpp\n'}
+[13.861716] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__builder.hpp\n'}
+[13.861982] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.hpp\n'}
+[13.862123] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__traits.hpp\n'}
+[13.862300] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__builder.hpp\n'}
+[13.862540] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.hpp\n'}
+[13.862786] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__traits.hpp\n'}
+[13.863079] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/my_aruco_coords.hpp\n'}
+[13.863301] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.hpp\n'}
+[13.863473] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_aruco_coords.hpp\n'}
+[13.863673] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.hpp\n'}
+[13.863839] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.hpp\n'}
+[13.864022] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.hpp\n'}
+[13.864177] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.hpp\n'}
+[13.864324] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.hpp\n'}
+[13.864501] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__builder.hpp\n'}
+[13.864664] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.hpp\n'}
+[13.864991] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__traits.hpp\n'}
+[13.865269] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__builder.hpp\n'}
+[13.865557] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.hpp\n'}
+[13.865860] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__traits.hpp\n'}
+[13.866109] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__builder.hpp\n'}
+[13.866378] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.hpp\n'}
+[13.866609] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__traits.hpp\n'}
+[13.866848] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__builder.hpp\n'}
+[13.867086] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.hpp\n'}
+[13.867310] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__traits.hpp\n'}
+[13.867548] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__builder.hpp\n'}
+[13.867768] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.hpp\n'}
+[13.868022] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__traits.hpp\n'}
+[13.868233] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__builder.hpp\n'}
+[13.868467] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.hpp\n'}
+[13.868716] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__traits.hpp\n'}
+[13.868923] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.hpp\n'}
+[13.869190] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.hpp\n'}
+[13.869365] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.hpp\n'}
+[13.869566] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.hpp\n'}
+[13.869787] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.hpp\n'}
+[13.870019] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.hpp\n'}
+[13.871456] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.871662] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.871864] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.872096] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.872307] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.872548] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.872805] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.873006] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.873219] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.873448] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.873671] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.873903] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.874119] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.874355] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.874595] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.875466] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/my_aruco_coords__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.875669] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.875900] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_aruco_coords__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.876130] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.876363] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.876599] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.876839] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.877047] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.877284] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.877512] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.877718] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.877967] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.878157] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.878377] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.878602] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.sh\n'}
+[13.878825] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.dsv\n'}
+[13.879316] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.879446] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.879583] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.879736] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.881184] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/__init__.py\n'}
+[13.881362] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[13.881518] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.881631] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.881728] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/libmycobot_interfaces__rosidl_generator_py.so\n'}
+[13.881824] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/__init__.py\n'}
+[13.881948] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_my_aruco_coords.py\n'}
+[13.882101] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_my_aruco_coords_s.c\n'}
+[13.882199] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles.py\n'}
+[13.882295] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles_s.c\n'}
+[13.882393] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_aruco_coords.py\n'}
+[13.882525] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_aruco_coords_s.c\n'}
+[13.882670] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords.py\n'}
+[13.882776] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords_s.c\n'}
+[13.882934] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status.py\n'}
+[13.883073] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status_s.c\n'}
+[13.883176] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status.py\n'}
+[13.883322] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status_s.c\n'}
+[13.883420] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles.py\n'}
+[13.883518] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles_s.c\n'}
+[13.883616] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords.py\n'}
+[13.883813] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords_s.c\n'}
+[13.883976] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.884115] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.884259] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.884391] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/__init__.py\n'}
+[13.884530] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles.py\n'}
+[13.884642] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles_s.c\n'}
+[13.884813] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords.py\n'}
+[13.884927] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords_s.c\n'}
+[13.885070] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status.py\n'}
+[13.885177] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status_s.c\n'}
+[13.885320] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status.py\n'}
+[13.885450] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status_s.c\n'}
+[13.885601] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles.py\n'}
+[13.885713] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles_s.c\n'}
+[13.885858] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords.py\n'}
+[13.885967] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords_s.c\n'}
+[13.886108] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.886248] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.886388] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.886498] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.idl\n'}
+[13.886636] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.idl\n'}
+[13.886771] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.idl\n'}
+[13.886875] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.idl\n'}
+[13.887001] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.idl\n'}
+[13.887144] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.idl\n'}
+[13.887279] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MyArucoCoords.idl\n'}
+[13.887416] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.idl\n'}
+[13.887528] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.idl\n'}
+[13.887664] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.idl\n'}
+[13.887799] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.idl\n'}
+[13.887913] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.idl\n'}
+[13.888054] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.idl\n'}
+[13.888192] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.msg\n'}
+[13.888323] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.msg\n'}
+[13.888462] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.msg\n'}
+[13.888614] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.msg\n'}
+[13.888773] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.msg\n'}
+[13.889050] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.msg\n'}
+[13.889417] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MyArucoCoords.msg\n'}
+[13.889745] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.srv\n'}
+[13.890051] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles_Request.msg\n'}
+[13.890353] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles_Response.msg\n'}
+[13.890669] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.srv\n'}
+[13.890967] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles_Request.msg\n'}
+[13.891293] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles_Response.msg\n'}
+[13.891647] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.srv\n'}
+[13.891887] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords_Request.msg\n'}
+[13.892130] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords_Response.msg\n'}
+[13.892375] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.srv\n'}
+[13.892636] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords_Request.msg\n'}
+[13.893000] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords_Response.msg\n'}
+[13.893259] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.srv\n'}
+[13.893448] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus_Request.msg\n'}
+[13.893729] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus_Response.msg\n'}
+[13.894018] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.srv\n'}
+[13.894229] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus_Request.msg\n'}
+[13.894540] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus_Response.msg\n'}
+[13.894769] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/package_run_dependencies/mycobot_interfaces\n'}
+[13.895050] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/parent_prefix_path/mycobot_interfaces\n'}
+[13.895262] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.sh\n'}
+[13.895525] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.895679] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.sh\n'}
+[13.895873] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.dsv\n'}
+[13.896068] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.bash\n'}
+[13.896261] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.sh\n'}
+[13.896444] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.zsh\n'}
+[13.896638] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.dsv\n'}
+[13.896806] (mycobot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv\n'}
+[13.898070] (-) TimerEvent: {}
+[13.906780] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/packages/mycobot_interfaces\n'}
+[13.906991] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.907204] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.907392] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.907498] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.907595] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.907746] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.907839] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.907947] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig.cmake\n'}
+[13.908036] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig-version.cmake\n'}
+[13.908153] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.xml\n'}
+[13.908247] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so\n'}
+[13.908644] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.909235] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.909673] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.909997] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.910430] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.910801] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so\n'}
+[13.911188] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.911602] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.912170] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.912595] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.913012] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.913269] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.913552] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.998204] (-) TimerEvent: {}
+[14.007561] (mycobot_interfaces) StdoutLine: {'line': b"Listing '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces'...\n"}
+[14.007863] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/__init__.py'...\n"}
+[14.007981] (mycobot_interfaces) StdoutLine: {'line': b"Listing '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg'...\n"}
+[14.008074] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/__init__.py'...\n"}
+[14.008193] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_my_aruco_coords.py'...\n"}
+[14.008293] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles.py'...\n"}
+[14.008380] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords.py'...\n"}
+[14.008468] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status.py'...\n"}
+[14.008559] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status.py'...\n"}
+[14.008659] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles.py'...\n"}
+[14.008769] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords.py'...\n"}
+[14.008851] (mycobot_interfaces) StdoutLine: {'line': b"Listing '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv'...\n"}
+[14.008935] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/__init__.py'...\n"}
+[14.009010] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles.py'...\n"}
+[14.009087] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords.py'...\n"}
+[14.009152] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status.py'...\n"}
+[14.009228] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status.py'...\n"}
+[14.009306] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles.py'...\n"}
+[14.009381] (mycobot_interfaces) StdoutLine: {'line': b"Compiling '/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords.py'...\n"}
+[14.016562] (mycobot_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_py.so\n'}
+[14.017174] (mycobot_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/david/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.017545] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.017750] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.018016] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.018309] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.018457] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.018668] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.018902] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.019133] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.019381] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.019617] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.019906] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.020032] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.020125] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.020220] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.020326] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.020514] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.020623] (mycobot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.023096] (mycobot_interfaces) CommandEnded: {'returncode': 0}
+[14.098336] (-) TimerEvent: {}
+[14.198830] (-) TimerEvent: {}
+[14.299121] (-) TimerEvent: {}
+[14.378960] (mycobot_interfaces) JobEnded: {'identifier': 'mycobot_interfaces', 'rc': 0}
+[14.379899] (-) EventReactorShutdown: {}

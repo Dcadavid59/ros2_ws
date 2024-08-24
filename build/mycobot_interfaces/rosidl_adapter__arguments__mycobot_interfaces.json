@@ -1,0 +1,18 @@
+{
+  "package_name": "mycobot_interfaces",
+  "non_idl_tuples": [
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotAngles.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotCoords.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotSetAngles.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotSetCoords.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotGripperStatus.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MycobotPumpStatus.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:msg/MyArucoCoords.msg",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GetAngles.srv",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/SetAngles.srv",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GetCoords.srv",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/SetCoords.srv",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/GripperStatus.srv",
+    "/home/david/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_interfaces:srv/PumpStatus.srv"
+  ]
+}

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mycobot_interfaces/msg/MyArucoCoords.msg
+// generated code does not contain a copyright notice
+
+
+module mycobot_interfaces {
+  module msg {
+    struct MyArucoCoords {
+      float x;
+
+      float y;
+
+      float z;
+
+      float rx;
+
+      float ry;
+
+      float rz;
+
+      int16 id;
+
+      boolean flag;
+
+      float distance;
+    };
+  };
+};

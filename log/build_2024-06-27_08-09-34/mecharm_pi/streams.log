@@ -1,0 +1,44 @@
+[2.368s] Invoking command in '/home/david/ros2_ws/build/mecharm_pi': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mecharm_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_communication:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mecharm_pi/build --no-deps symlink_data
+[3.109s] running develop
+[3.120s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.121s]   warnings.warn(
+[3.480s] running egg_info
+[3.480s] creating mecharm_pi.egg-info
+[3.480s] writing mecharm_pi.egg-info/PKG-INFO
+[3.480s] writing dependency_links to mecharm_pi.egg-info/dependency_links.txt
+[3.480s] writing entry points to mecharm_pi.egg-info/entry_points.txt
+[3.481s] writing requirements to mecharm_pi.egg-info/requires.txt
+[3.481s] writing top-level names to mecharm_pi.egg-info/top_level.txt
+[3.481s] writing manifest file 'mecharm_pi.egg-info/SOURCES.txt'
+[3.483s] reading manifest file 'mecharm_pi.egg-info/SOURCES.txt'
+[3.484s] writing manifest file 'mecharm_pi.egg-info/SOURCES.txt'
+[3.486s] running build_ext
+[3.486s] Creating /home/david/ros2_ws/install/mecharm_pi/lib/python3.10/site-packages/mecharm-pi.egg-link (link to .)
+[3.487s] Installing detect_marker script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing follow_display script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing following_marker script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing listen_real script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing listen_real_of_topic script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing simple_gui script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing slider_control script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.488s] Installing teleop_keyboard script to /home/david/ros2_ws/install/mecharm_pi/lib/mecharm_pi
+[3.489s] 
+[3.489s] Installed /home/david/ros2_ws/build/mecharm_pi
+[3.489s] running symlink_data
+[3.489s] creating /home/david/ros2_ws/install/mecharm_pi/share/ament_index
+[3.489s] creating /home/david/ros2_ws/install/mecharm_pi/share/ament_index/resource_index
+[3.489s] creating /home/david/ros2_ws/install/mecharm_pi/share/ament_index/resource_index/packages
+[3.489s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/resource/mecharm_pi -> /home/david/ros2_ws/install/mecharm_pi/share/ament_index/resource_index/packages
+[3.489s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/package.xml -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi
+[3.489s] creating /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.489s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/test.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.489s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/detect_marker_with_topic.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/follow.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/launch/detect_marker.launch.py -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/launch
+[3.490s] creating /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/config
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/config
+[3.490s] symbolically linking /home/david/ros2_ws/build/mecharm_pi/config/mecharm_pi.rviz -> /home/david/ros2_ws/install/mecharm_pi/share/mecharm_pi/config
+[3.766s] Invoked command in '/home/david/ros2_ws/build/mecharm_pi' returned '0': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mecharm_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_communication:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mecharm_pi/build --no-deps symlink_data

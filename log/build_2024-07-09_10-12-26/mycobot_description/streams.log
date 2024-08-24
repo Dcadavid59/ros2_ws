@@ -1,0 +1,18 @@
+[0.632s] Invoking command in '/home/david/ros2_ws/build/mycobot_description': PYTHONPATH=/home/david/ros2_ws/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_description/build --no-deps symlink_data
+[0.944s] running develop
+[0.945s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.945s]   warnings.warn(
+[1.071s] running egg_info
+[1.071s] writing mycobot_description.egg-info/PKG-INFO
+[1.072s] writing dependency_links to mycobot_description.egg-info/dependency_links.txt
+[1.072s] writing entry points to mycobot_description.egg-info/entry_points.txt
+[1.072s] writing requirements to mycobot_description.egg-info/requires.txt
+[1.072s] writing top-level names to mycobot_description.egg-info/top_level.txt
+[1.074s] reading manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[1.076s] writing manifest file 'mycobot_description.egg-info/SOURCES.txt'
+[1.077s] running build_ext
+[1.077s] Creating /home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages/mycobot-description.egg-link (link to .)
+[1.078s] 
+[1.078s] Installed /home/david/ros2_ws/build/mycobot_description
+[1.078s] running symlink_data
+[1.143s] Invoked command in '/home/david/ros2_ws/build/mycobot_description' returned '0': PYTHONPATH=/home/david/ros2_ws/build/mycobot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mycobot_description/build --no-deps symlink_data

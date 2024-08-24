@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mypalletizer_260/launch/test.launch.py

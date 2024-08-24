@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mecharm_interfaces/rosidl_cmake/srv/GetAngles_Request.msg

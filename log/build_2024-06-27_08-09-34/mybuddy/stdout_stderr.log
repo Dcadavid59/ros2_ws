@@ -1,0 +1,33 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating mybuddy.egg-info
+writing mybuddy.egg-info/PKG-INFO
+writing dependency_links to mybuddy.egg-info/dependency_links.txt
+writing entry points to mybuddy.egg-info/entry_points.txt
+writing requirements to mybuddy.egg-info/requires.txt
+writing top-level names to mybuddy.egg-info/top_level.txt
+writing manifest file 'mybuddy.egg-info/SOURCES.txt'
+reading manifest file 'mybuddy.egg-info/SOURCES.txt'
+writing manifest file 'mybuddy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mybuddy/lib/python3.10/site-packages/mybuddy.egg-link (link to .)
+Installing follow_display script to /home/david/ros2_ws/install/mybuddy/lib/mybuddy
+Installing listen_real script to /home/david/ros2_ws/install/mybuddy/lib/mybuddy
+Installing listen_real_of_topic script to /home/david/ros2_ws/install/mybuddy/lib/mybuddy
+Installing slider_control script to /home/david/ros2_ws/install/mybuddy/lib/mybuddy
+
+Installed /home/david/ros2_ws/build/mybuddy
+running symlink_data
+creating /home/david/ros2_ws/install/mybuddy/share/ament_index
+creating /home/david/ros2_ws/install/mybuddy/share/ament_index/resource_index
+creating /home/david/ros2_ws/install/mybuddy/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mybuddy/resource/mybuddy -> /home/david/ros2_ws/install/mybuddy/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mybuddy/package.xml -> /home/david/ros2_ws/install/mybuddy/share/mybuddy
+creating /home/david/ros2_ws/install/mybuddy/share/mybuddy/launch
+symbolically linking /home/david/ros2_ws/build/mybuddy/launch/test.launch.py -> /home/david/ros2_ws/install/mybuddy/share/mybuddy/launch
+symbolically linking /home/david/ros2_ws/build/mybuddy/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mybuddy/share/mybuddy/launch
+symbolically linking /home/david/ros2_ws/build/mybuddy/launch/mybuddy_follow.launch.py -> /home/david/ros2_ws/install/mybuddy/share/mybuddy/launch
+creating /home/david/ros2_ws/install/mybuddy/share/mybuddy/config
+symbolically linking /home/david/ros2_ws/build/mybuddy/config/dual_arm.rviz -> /home/david/ros2_ws/install/mybuddy/share/mybuddy/config

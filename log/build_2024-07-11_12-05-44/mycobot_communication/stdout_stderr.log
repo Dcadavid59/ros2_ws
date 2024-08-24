@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing mycobot_communication.egg-info/PKG-INFO
+writing dependency_links to mycobot_communication.egg-info/dependency_links.txt
+writing entry points to mycobot_communication.egg-info/entry_points.txt
+writing requirements to mycobot_communication.egg-info/requires.txt
+writing top-level names to mycobot_communication.egg-info/top_level.txt
+reading manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_communication.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mycobot_communication/lib/python3.10/site-packages/mycobot-communication.egg-link (link to .)
+Installing mycobot_services script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics_jsnn script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics_pi script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+Installing mycobot_topics_seeed script to /home/david/ros2_ws/install/mycobot_communication/lib/mycobot_communication
+
+Installed /home/david/ros2_ws/build/mycobot_communication
+running symlink_data

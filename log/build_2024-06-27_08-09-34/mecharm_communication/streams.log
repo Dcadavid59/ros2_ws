@@ -1,0 +1,36 @@
+[0.497s] Invoking command in '/home/david/ros2_ws/build/mecharm_communication': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mecharm_communication/build --no-deps symlink_data
+[0.640s] running develop
+[0.641s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.641s]   warnings.warn(
+[0.718s] running egg_info
+[0.718s] creating mecharm_communication.egg-info
+[0.719s] writing mecharm_communication.egg-info/PKG-INFO
+[0.719s] writing dependency_links to mecharm_communication.egg-info/dependency_links.txt
+[0.719s] writing entry points to mecharm_communication.egg-info/entry_points.txt
+[0.719s] writing requirements to mecharm_communication.egg-info/requires.txt
+[0.719s] writing top-level names to mecharm_communication.egg-info/top_level.txt
+[0.719s] writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[0.720s] reading manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[0.720s] writing manifest file 'mecharm_communication.egg-info/SOURCES.txt'
+[0.721s] running build_ext
+[0.721s] Creating /home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm-communication.egg-link (link to .)
+[0.722s] Installing mecharm_services script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[0.722s] Installing mycobot_topics script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[0.722s] Installing mycobot_topics_jsnn script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[0.722s] Installing mycobot_topics_pi script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[0.722s] Installing mycobot_topics_seeed script to /home/david/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[0.722s] 
+[0.722s] Installed /home/david/ros2_ws/build/mecharm_communication
+[0.722s] running symlink_data
+[0.722s] creating /home/david/ros2_ws/install/mecharm_communication/share/ament_index
+[0.722s] creating /home/david/ros2_ws/install/mecharm_communication/share/ament_index/resource_index
+[0.723s] creating /home/david/ros2_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/resource/mecharm_communication -> /home/david/ros2_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/package.xml -> /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication
+[0.723s] creating /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/launch/communication_topic_pi.launch.py -> /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/launch/communication_topic.launch.py -> /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/launch/communication_seeed.launch.py -> /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/launch/communication_service.launch.py -> /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[0.723s] symbolically linking /home/david/ros2_ws/build/mecharm_communication/launch/communication_jsnn.launch.py -> /home/david/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[1.173s] Invoked command in '/home/david/ros2_ws/build/mecharm_communication' returned '0': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mecharm_communication/build --no-deps symlink_data

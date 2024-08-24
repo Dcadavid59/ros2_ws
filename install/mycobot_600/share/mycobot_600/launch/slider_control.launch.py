@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mycobot_600/launch/slider_control.launch.py

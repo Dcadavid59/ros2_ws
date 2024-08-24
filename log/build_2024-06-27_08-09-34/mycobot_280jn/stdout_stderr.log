@@ -1,0 +1,44 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating mycobot_280jn.egg-info
+writing mycobot_280jn.egg-info/PKG-INFO
+writing dependency_links to mycobot_280jn.egg-info/dependency_links.txt
+writing entry points to mycobot_280jn.egg-info/entry_points.txt
+writing requirements to mycobot_280jn.egg-info/requires.txt
+writing top-level names to mycobot_280jn.egg-info/top_level.txt
+writing manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+reading manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_280jn.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mycobot_280jn/lib/python3.10/site-packages/mycobot-280jn.egg-link (link to .)
+Installing camera_display script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing detect_marker script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing follow_display script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing following_marker script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing listen_real script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing listen_real_of_topic script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing opencv_camera script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing simple_gui script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing slider_control script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+Installing teleop_keyboard script to /home/david/ros2_ws/install/mycobot_280jn/lib/mycobot_280jn
+
+Installed /home/david/ros2_ws/build/mycobot_280jn
+running symlink_data
+creating /home/david/ros2_ws/install/mycobot_280jn/share/ament_index
+creating /home/david/ros2_ws/install/mycobot_280jn/share/ament_index/resource_index
+creating /home/david/ros2_ws/install/mycobot_280jn/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/resource/mycobot_280jn -> /home/david/ros2_ws/install/mycobot_280jn/share/ament_index/resource_index/packages
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/package.xml -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn
+creating /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/test.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/detect_marker_with_topic.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/mycobot_follow.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/launch/detect_marker.launch.py -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/launch
+creating /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/config
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/config/mycobot_jn.rviz -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/config
+symbolically linking /home/david/ros2_ws/build/mycobot_280jn/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/mycobot_280jn/share/mycobot_280jn/config

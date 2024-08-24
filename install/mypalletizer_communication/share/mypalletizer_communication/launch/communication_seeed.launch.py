@@ -1,0 +1,1 @@
+/home/david/ros2_ws/build/mypalletizer_communication/launch/communication_seeed.launch.py

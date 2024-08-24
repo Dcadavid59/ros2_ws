@@ -1,0 +1,44 @@
+[1.858s] Invoking command in '/home/david/ros2_ws/build/mypalletizer_260_pi': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mypalletizer_260_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mypalletizer_260_pi/build --no-deps symlink_data
+[2.529s] running develop
+[2.529s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.529s]   warnings.warn(
+[2.994s] running egg_info
+[2.995s] creating mypalletizer_260_pi.egg-info
+[2.995s] writing mypalletizer_260_pi.egg-info/PKG-INFO
+[2.995s] writing dependency_links to mypalletizer_260_pi.egg-info/dependency_links.txt
+[2.995s] writing entry points to mypalletizer_260_pi.egg-info/entry_points.txt
+[2.995s] writing requirements to mypalletizer_260_pi.egg-info/requires.txt
+[2.995s] writing top-level names to mypalletizer_260_pi.egg-info/top_level.txt
+[2.996s] writing manifest file 'mypalletizer_260_pi.egg-info/SOURCES.txt'
+[2.998s] reading manifest file 'mypalletizer_260_pi.egg-info/SOURCES.txt'
+[2.998s] writing manifest file 'mypalletizer_260_pi.egg-info/SOURCES.txt'
+[3.000s] running build_ext
+[3.000s] Creating /home/david/ros2_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages/mypalletizer-260-pi.egg-link (link to .)
+[3.001s] Installing detect_marker script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.001s] Installing follow_display script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] Installing following_marker script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] Installing listen_real script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] Installing listen_real_of_topic script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] Installing simple_gui script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] Installing slider_control script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] Installing teleop_keyboard script to /home/david/ros2_ws/install/mypalletizer_260_pi/lib/mypalletizer_260_pi
+[3.002s] 
+[3.002s] Installed /home/david/ros2_ws/build/mypalletizer_260_pi
+[3.002s] running symlink_data
+[3.003s] creating /home/david/ros2_ws/install/mypalletizer_260_pi/share/ament_index
+[3.003s] creating /home/david/ros2_ws/install/mypalletizer_260_pi/share/ament_index/resource_index
+[3.003s] creating /home/david/ros2_ws/install/mypalletizer_260_pi/share/ament_index/resource_index/packages
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/resource/mypalletizer_260_pi -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/ament_index/resource_index/packages
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/package.xml -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi
+[3.003s] creating /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/test.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/detect_marker_with_topic.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.003s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/follow.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.004s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.004s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/launch/detect_marker.launch.py -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/launch
+[3.004s] creating /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/config
+[3.004s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/config/mypalletizer_pi.rviz -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/config
+[3.004s] symbolically linking /home/david/ros2_ws/build/mypalletizer_260_pi/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/mypalletizer_260_pi/share/mypalletizer_260_pi/config
+[3.156s] Invoked command in '/home/david/ros2_ws/build/mypalletizer_260_pi' returned '0': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mypalletizer_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mypalletizer_260_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mypalletizer_260_pi/lib/python3.10/site-packages:/home/david/ros2_ws/build/mypalletizer_communication:/home/david/ros2_ws/install/mypalletizer_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mypalletizer_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mypalletizer_260_pi/build --no-deps symlink_data

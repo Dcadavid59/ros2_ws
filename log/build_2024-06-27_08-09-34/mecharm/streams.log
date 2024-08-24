@@ -1,0 +1,44 @@
+[2.362s] Invoking command in '/home/david/ros2_ws/build/mecharm': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mecharm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mecharm/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_communication:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mecharm/build --no-deps symlink_data
+[3.002s] running develop
+[3.002s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.002s]   warnings.warn(
+[3.246s] running egg_info
+[3.246s] creating mecharm.egg-info
+[3.247s] writing mecharm.egg-info/PKG-INFO
+[3.248s] writing dependency_links to mecharm.egg-info/dependency_links.txt
+[3.249s] writing entry points to mecharm.egg-info/entry_points.txt
+[3.250s] writing requirements to mecharm.egg-info/requires.txt
+[3.251s] writing top-level names to mecharm.egg-info/top_level.txt
+[3.252s] writing manifest file 'mecharm.egg-info/SOURCES.txt'
+[3.262s] reading manifest file 'mecharm.egg-info/SOURCES.txt'
+[3.267s] writing manifest file 'mecharm.egg-info/SOURCES.txt'
+[3.274s] running build_ext
+[3.276s] Creating /home/david/ros2_ws/install/mecharm/lib/python3.10/site-packages/mecharm.egg-link (link to .)
+[3.281s] Installing detect_marker script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.282s] Installing follow_display script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.283s] Installing following_marker script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.283s] Installing listen_real script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.284s] Installing listen_real_of_topic script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.285s] Installing simple_gui script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.285s] Installing slider_control script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.286s] Installing teleop_keyboard script to /home/david/ros2_ws/install/mecharm/lib/mecharm
+[3.287s] 
+[3.288s] Installed /home/david/ros2_ws/build/mecharm
+[3.289s] running symlink_data
+[3.289s] creating /home/david/ros2_ws/install/mecharm/share/ament_index
+[3.290s] creating /home/david/ros2_ws/install/mecharm/share/ament_index/resource_index
+[3.291s] creating /home/david/ros2_ws/install/mecharm/share/ament_index/resource_index/packages
+[3.291s] symbolically linking /home/david/ros2_ws/build/mecharm/resource/mecharm -> /home/david/ros2_ws/install/mecharm/share/ament_index/resource_index/packages
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/package.xml -> /home/david/ros2_ws/install/mecharm/share/mecharm
+[3.292s] creating /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/test.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/teleop_keyboard.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/detect_marker_with_topic.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/simple_gui.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/follow.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.292s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/slider_control.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.293s] symbolically linking /home/david/ros2_ws/build/mecharm/launch/detect_marker.launch.py -> /home/david/ros2_ws/install/mecharm/share/mecharm/launch
+[3.293s] creating /home/david/ros2_ws/install/mecharm/share/mecharm/config
+[3.293s] symbolically linking /home/david/ros2_ws/build/mecharm/config/mycobot_with_marker.rviz -> /home/david/ros2_ws/install/mecharm/share/mecharm/config
+[3.293s] symbolically linking /home/david/ros2_ws/build/mecharm/config/mecharm.rviz -> /home/david/ros2_ws/install/mecharm/share/mecharm/config
+[3.732s] Invoked command in '/home/david/ros2_ws/build/mecharm' returned '0': AMENT_PREFIX_PATH=/home/david/ros2_ws/install/mecharm_communication:/home/david/ros2_ws/install/mycobot_interfaces:/home/david/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/ros2_ws/install/mycobot_interfaces LD_LIBRARY_PATH=/home/david/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/ros2_ws/build/mecharm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/ros2_ws/install/mecharm/lib/python3.10/site-packages:/home/david/ros2_ws/build/mecharm_communication:/home/david/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:/home/david/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/david/ros2_ws/build/mycobot_description:/home/david/ros2_ws/install/mycobot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/david/ros2_ws/build/mecharm/build --no-deps symlink_data

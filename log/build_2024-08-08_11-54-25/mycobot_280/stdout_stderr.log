@@ -1,0 +1,36 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing mycobot_280.egg-info/PKG-INFO
+writing dependency_links to mycobot_280.egg-info/dependency_links.txt
+writing entry points to mycobot_280.egg-info/entry_points.txt
+writing requirements to mycobot_280.egg-info/requires.txt
+writing top-level names to mycobot_280.egg-info/top_level.txt
+reading manifest file 'mycobot_280.egg-info/SOURCES.txt'
+writing manifest file 'mycobot_280.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/david/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot-280.egg-link (link to .)
+Installing acercamiento script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing angular_position_server script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing aruco_marker script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing aruco_marker2 script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing barrido_client script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing camera_display script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing detect_marker script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing follow_display script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing following_marker script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing listen_real script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing listen_real_of_topic script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing opencv_camera script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing origen script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing rutina script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing rutina2 script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing rutina3 script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing simple_gui script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing slider_control script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing teleop_keyboard script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+Installing test_subscription script to /home/david/ros2_ws/install/mycobot_280/lib/mycobot_280
+
+Installed /home/david/ros2_ws/build/mycobot_280
+running symlink_data
